@@ -14,11 +14,11 @@ button.addEventListener('click', function() {
         result.innerHTML = 'This is an Equilateral Triangle'
     }
 
-    else if ( value1 === value2 && value2 !== value3 && value1) {
-        result.innerHTML = 'This is an Isoscles Triangle'
+    else if (value1 !== value2 && value3 && value2 !== value1 && value3) {
+        result.innerHTML = 'This is a scalene Triangle'
     }
 
     else {
-        result.innerHTML = 'This is a scalene triangle'
+        result.innerHTML = 'This is an Isosceles Triangle'
     }
 })
