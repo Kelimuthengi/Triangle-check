@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.triangle {
+    background-color: rgb(42, 167, 167);
+    width: 400px;
+    height: 400px;
+    transform: translate(200px, 50px);
+
+}
+
+#valueA, #valueB, #valueC {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(42, 167, 167);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+} 
+
+
+#valueA {
+    transform: translate(30px, 10px);
+}
+
+#valueB {
+    transform: translate(-20px, 80px);
+}
+
+#valueC {
+    transform: translate(-70px, 150px);
+}
+
+#check {
+    background-color: rgb(42, 167, 167);
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#check:hover {
+    background-color: white;
+    color: black;
+    border:1px solid rgb(42, 167, 167);
+}
+
+#result {
+    transform: translate(130px, 80px);
+}
