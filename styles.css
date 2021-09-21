@@ -15,7 +15,7 @@ h1 {
     width: 400px;
     height: 400px;
     transform: translate(200px, 50px);
-
+    border-radius: 10px;
 }
 
 #valueA, #valueB, #valueC {
